@@ -1,4 +1,4 @@
-#Babysitter Kata Challenge
+# Babysitter Kata Challenge
 
 ## Requirements
 The babysitter:
@@ -19,11 +19,11 @@ Deliverable:
 - Calculate total pay, based on babysitter start and end time, and a family. 
 
 ## Error Codes
-SUCCESS 0
-INVALID_START -1
-INVALID_END -2
-INVALID_FAMILY -3
-ERROR -4
+- SUCCESS 0
+- INVALID_START -1
+- INVALID_END -2
+- INVALID_FAMILY -3
+- ERROR -4
 
 ## Building
 make

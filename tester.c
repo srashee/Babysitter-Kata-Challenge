@@ -231,6 +231,19 @@ int main () {
         printf("Test %d Failed \n", test);
     }
 
+    /* Test 21
+     * Maximum Times (Fractional)
+     * Typecasts should take care of this
+     * Expected Value 190
+     * (90) + (100)*/
+    test++;
+    result = babysitter('a',17.7,4);
+    if (result != 190) {
+        failed++;
+        printf("Test %d Failed \n", test);
+    }
+
+
     /* Return error if tests failed */
     if (failed > 0) {
         printf("%d Tests failed \n", failed);
