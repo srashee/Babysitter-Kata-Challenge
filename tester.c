@@ -243,6 +243,18 @@ int main () {
         printf("Test %d Failed \n", test);
     }
 
+     /* Test 22
+     * Maximum Times -- Capital Character
+     * Expected Value 190
+     * (90) + (100)*/
+    test++;
+    result = babysitter('A',17,4);
+    if (result != 190) {
+        failed++;
+        printf("Test %d Failed \n", test);
+    }
+
+
 
     /* Return error if tests failed */
     if (failed > 0) {
