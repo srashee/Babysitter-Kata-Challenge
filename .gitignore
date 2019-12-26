@@ -1,0 +1,6 @@
+# Build Files
+*.o
+tester
+
+# Temp files
+*.swp
