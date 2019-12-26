@@ -255,10 +255,10 @@ int main () {
     }
 
 
-
     /* Return error if tests failed */
     if (failed > 0) {
         printf("%d Tests failed \n", failed);
+        assert(failed==0);
         return ERROR;
     }
     else {
